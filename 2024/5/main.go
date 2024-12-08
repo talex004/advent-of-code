@@ -9,10 +9,6 @@ import (
   "slices"
 )
 
-type order struct {
-  a, b int
-}
-
 func main() {
   order, updates := readInput()
   
